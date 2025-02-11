@@ -2,7 +2,6 @@
 import { links } from "@/data/Links";
 import Animate from "@/utility/Animate";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 function Contact() {
   Animate("contact");

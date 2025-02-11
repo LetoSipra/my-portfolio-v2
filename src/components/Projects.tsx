@@ -1,6 +1,5 @@
 "use client";
 import { ProjectsData } from "@/data/ProjectsData";
-import Animate from "@/utility/Animate";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";

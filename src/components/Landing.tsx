@@ -1,6 +1,5 @@
 "use client";
 import Animate from "@/utility/Animate";
-import CurrentPage from "@/utility/CurrentPage";
 
 function Landing() {
   Animate("landing");

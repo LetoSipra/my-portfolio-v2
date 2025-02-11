@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import Image from "next/image";
 import MobileNavMenu from "./MobileNavMenu";
@@ -49,7 +49,7 @@ function Header() {
                 className={`cursor-pointer rounded-xl px-3 py-2 transition duration-300 hover:bg-white/5
               `}
                 onClick={() => {
-                  let scroll: any = document.getElementById(nav.scrollTo);
+                  const scroll: any = document.getElementById(nav.scrollTo);
                   scroll.scrollIntoView({
                     behavior: "smooth",
                     block: nav.scrollTo === "project" ? "start" : "center",

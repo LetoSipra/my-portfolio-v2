@@ -1,3 +1,4 @@
+import { navList } from "@/data/NavList";
 import { Dispatch, SetStateAction } from "react";
 import { HiX } from "react-icons/hi";
 
@@ -7,12 +8,6 @@ interface Props {
 }
 
 function MobileNavMenu({ navMenuOpen, setNavMenuOpen }: Props) {
-  const navList = [
-    { label: "Welcome", scrollTo: "welcome" },
-    { label: "About", scrollTo: "about" },
-    { label: "Projects", scrollTo: "project" },
-    { label: "Contact", scrollTo: "contact" },
-  ];
   return (
     <>
       <section

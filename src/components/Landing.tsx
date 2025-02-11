@@ -1,8 +1,10 @@
 "use client";
 import Animate from "@/utility/Animate";
+import CurrentPage from "@/utility/CurrentPage";
 
 function Landing() {
   Animate("landing");
+
   return (
     <div className="h-screen flex justify-center" id="welcome">
       <div className="relative flex self-center xl:max-w-3xl xl:mx-10 mx-3 opacity-0 blur-xl filter transition duration-300 translate-y-100 landing">

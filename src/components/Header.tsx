@@ -5,17 +5,11 @@ import { HiMenu } from "react-icons/hi";
 import Image from "next/image";
 import MobileNavMenu from "./MobileNavMenu";
 import Animate from "@/utility/Animate";
+import { navList } from "@/data/NavList";
 
 function Header() {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
   const [componentDidMount, setcomponentDidMount] = useState(false);
-
-  const navList = [
-    { label: "Welcome", scrollTo: "welcome" },
-    { label: "About", scrollTo: "about" },
-    { label: "Projects", scrollTo: "project" },
-    { label: "Contact", scrollTo: "contact" },
-  ];
 
   useEffect(() => {
     setcomponentDidMount(true);

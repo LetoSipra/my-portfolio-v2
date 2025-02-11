@@ -1,12 +1,12 @@
-import { links } from '@/data/Links';
-import Link from 'next/link';
+import { links } from "@/data/Links";
+import Link from "next/link";
 
 function SideNav() {
   const navList = [
-    { label: 'Welcome', scrollTo: 'welcome' },
-    { label: 'About', scrollTo: 'about' },
-    { label: 'Projects', scrollTo: 'project' },
-    { label: 'Contact', scrollTo: 'contact' },
+    { label: "Welcome", scrollTo: "welcome" },
+    { label: "About", scrollTo: "about" },
+    { label: "Projects", scrollTo: "project" },
+    { label: "Contact", scrollTo: "contact" },
   ];
   return (
     <div className="fixed flex mr-10 self-center">

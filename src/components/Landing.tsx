@@ -1,7 +1,11 @@
+"use client";
+import Animate from "@/utility/Animate";
+
 function Landing() {
+  Animate("landing");
   return (
-    <div className="h-screen flex justify-center">
-      <div className="relative flex self-center xl:max-w-3xl xl:mx-10">
+    <div className="h-screen flex justify-center" id="welcome">
+      <div className="relative flex self-center xl:max-w-3xl xl:mx-10 mx-3 opacity-0 blur-xl filter transition duration-300 translate-y-100 landing">
         <div className="py-10 lg:py-20">
           <h1 className="flex flex-col py-10 text-4xl font-semibold tracking-wide sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl">
             <span className="mb-5 block bg-gradient-to-r from-red-500 to-red-300 bg-clip-text py-1 text-3xl text-transparent lg:text-4xl">

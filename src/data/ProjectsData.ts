@@ -1,0 +1,67 @@
+export const ProjectsData = [
+  {
+    title: "Instagram Clone",
+    slug: "instagram-clone",
+    desc: "My first portfolio page. Animated with React-Spring, all information is dynamic with hygraph CMS (check api), which gives the power of easy modifying or adding more content.",
+    cover: {
+      url: "https://i.imgur.com/QCo0g3c.png",
+    },
+    tech: "Next.js, Typescript, Tailwind CSS,  React-Spring",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/my-portfolio-v1",
+    website: "https://yusufakcay.dev",
+    devStatus: false,
+  },
+  {
+    title: "Netflix Clone",
+    slug: "netflix-clone",
+    desc: "A Netflix Clone with Firebase & Stripe subscription, TMBD API, My List, Firebase mail authentication, Material UI Modal.",
+    cover: {
+      url: "https://i.imgur.com/M3ExhOY.png",
+    },
+    tech: "Next.js, Typescript, Stripe, Firebase, Recoil, Tailwind CSS, Material UI, Headless UI, TMBD API",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/netflix-clone",
+    website: "https://clone-1-azure.vercel.app/",
+    devStatus: false,
+  },
+  {
+    title: "Sass Project",
+    slug: "sass-project",
+    desc: "Blogging app with hygraph CMS, GraphQL request, dynamic path's.",
+    cover: {
+      url: "https://i.imgur.com/Uy00mXN.png",
+    },
+    tech: "Next.js, hygraph CMS,  Typescript, Tailwind CSS, GraphQL",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/graphcms-blog-app",
+    website: "https://blog-app-ten-phi.vercel.app/",
+    devStatus: true,
+  },
+  {
+    title: "Apple E-commerce",
+    slug: "apple-e-commerce",
+    desc: "Apple clone, e-commerce app powered by Sanity CMS, Stripe Payment, Redux.",
+    cover: {
+      url: "https://i.imgur.com/oGn44yl.png",
+    },
+    tech: "Next.js, Typescript, Sanity CMS, Redux, Stripe, NextAuth, Headless UI, Tailwind CSS",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/mock-ecommerce-app",
+    website: "https://e-commerce-five-black.vercel.app/",
+    devStatus: false,
+  },
+  {
+    title: "Realtime Chat App",
+    slug: "realtime-chat-app",
+    desc: "A simple realtime chat app with bad-word filtering, emoji picker and SSR authentication with Next-Auth",
+    cover: {
+      url: "https://i.imgur.com/xVg0FkI.png",
+    },
+    tech: "Next.js, Typescript, Firebase, Tailwind CSS, NextAuth, Recoil",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/realtime-chat-app",
+    website: "https://realtime-chat-app-beige.vercel.app/",
+    devStatus: false,
+  },
+];

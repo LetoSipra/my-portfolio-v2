@@ -2,11 +2,11 @@ export const ProjectsData = [
   {
     title: "Instagram Clone",
     slug: "instagram-clone",
-    desc: "My first portfolio page. Animated with React-Spring, all information is dynamic with hygraph CMS (check api), which gives the power of easy modifying or adding more content.",
+    desc: "Instagram clone features realtime feed, Dark/Light theme, comments, dynamic post pages, saved posts, authentication.",
     cover: {
       url: "https://i.imgur.com/QCo0g3c.png",
     },
-    tech: "Next.js, Typescript, Tailwind CSS,  React-Spring",
+    tech: "Next.js, Typescript, Tailwind CSS, NextAuth, Prisma, Zod, UploadThing, shadcn/ui, Neon Serverless Postgres, React Hook Form",
     type: "Side Project",
     github: "https://github.com/LetoSipra/my-portfolio-v1",
     website: "https://yusufakcay.dev",
@@ -26,17 +26,17 @@ export const ProjectsData = [
     devStatus: false,
   },
   {
-    title: "Sass Project",
-    slug: "sass-project",
-    desc: "Blogging app with hygraph CMS, GraphQL request, dynamic path's.",
+    title: "PPP SaaS Project",
+    slug: "saas-project",
+    desc: "PPP SaaS app with Clerk authentication, permissions, analytics, Stripe subscription",
     cover: {
       url: "https://i.imgur.com/Uy00mXN.png",
     },
-    tech: "Next.js, hygraph CMS,  Typescript, Tailwind CSS, GraphQL",
+    tech: "Next.js, Typescript, Tailwind CSS, React Hook Form, Clerk, Drizzle ORM, Zod, Stripe, Neon Serverless Postgres, shadcn/ui",
     type: "Side Project",
     github: "https://github.com/LetoSipra/graphcms-blog-app",
     website: "https://blog-app-ten-phi.vercel.app/",
-    devStatus: true,
+    devStatus: false,
   },
   {
     title: "Apple E-commerce",

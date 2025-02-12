@@ -20,9 +20,8 @@ function Landing() {
             </span>
           </h1>
           <p className="my-3 ml-2 text-xl tracking-wide lg:text-2xl">
-            I’m a Full-Stack Web Developer that builds beautiful App's via
-            React.js & Serverless & Hot technologies. I'm currently open to any
-            career opportunities.
+            I build pixel-perfect digital experiences for the web with clean and
+            efficient code.
           </p>
         </div>
         <div className="absolute right-0 -z-50 rounded-full border-r border-t border-solid border-red-500/90 p-40"></div>

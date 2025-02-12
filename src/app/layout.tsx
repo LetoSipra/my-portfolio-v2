@@ -1,16 +1,16 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { Poppins } from 'next/font/google';
+import type { Metadata } from "next";
+import "./globals.css";
+import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: 'Yusuf Akcay',
-  description: 'Yusuf Akcay web developer portfolio page.',
-  icons: '/logo.png',
+  title: "Yusuf Akcay",
+  description: "Yusuf Akcay web developer portfolio page.",
+  icons: "/logo.png",
 };
 
-const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
+const inter = Inter({
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }

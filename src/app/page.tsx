@@ -21,7 +21,9 @@ export default function Home() {
         <AboutMe />
         <Projects />
         <Contact />
-        {/* <Projects /> */}
+        <div className="mb-0.5 text-center font-mono text-gray-200/80">
+          {"Designed & Created by Yusuf Akçay"}
+        </div>
       </div>
       {/* right container */}
       <div className="flex-[0.1] hidden md:flex">{/* <SideNav /> */}</div>

@@ -8,17 +8,17 @@ function AboutMe() {
   return (
     <div
       id="about"
-      className="h-screen flex items-center justify-center opacity-0 blur-xl filter transition duration-300 about"
+      className="h-screen flex items-center justify-center opacity-0 blur-xl filter my-40 sm:my-0 transition duration-300 about"
     >
       <div className="space-y-10 mx-3">
         <h1
-          className="rounded-lg pb-3 border-b border-red-500 bg-gradient-to-r w-fit 
-         from-red-500 to-cyan-200 bg-clip-text text-3xl font-semibold tracking-wide text-transparent md:text-5xl"
+          className="rounded-lg pb-3 border-b border-red-500 bg-gradient-to-r w-fit mx-5 sm:mx-0
+         from-red-500 to-cyan-200 bg-clip-text text-3xl font-semibold sm:tracking-wide text-transparent md:text-5xl"
         >
           About me
         </h1>
-        <div className="tracking-wide flex flex-col lg:items-start lg:space-y-10 space-y-5">
-          <div className="space-y-10 text-lg tracking-wide lg:max-w-md xl:max-w-3xl">
+        <div className="sm:tracking-wide flex flex-col lg:items-start lg:space-y-10 space-y-5">
+          <div className="space-y-10 text-lg sm:tracking-wide lg:max-w-md xl:max-w-3xl mx-5 sm:mx-0">
             <p className="">
               I’m a developer passionate about crafting pixel-perfect user
               interfaces that blend thoughtful design with robust engineering.
@@ -41,7 +41,7 @@ function AboutMe() {
             </p>
           </div>
           <div className="space-y-5 font-bold group">
-            <h1 className="text-red-500 text-xl">My Toolkit :</h1>
+            <h1 className="text-red-500 text-xl mx-5 sm:mx-0">My Toolkit :</h1>
             <div className="flex space-x-3 font-mono text-sm rounded-3xl group-hover:border-red-500 lg:border-b-2 lg:border-r-2 border-solid border-red-500/75 pb-8 pr-8">
               <ul className="space-y-5">
                 <li className="flex items-center">

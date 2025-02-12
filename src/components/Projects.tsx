@@ -29,7 +29,7 @@ function Projects() {
   });
   return (
     <div
-      className="flex w-full h-fit flex-col space-y-10 px-5 sm:px-0"
+      className="flex w-full h-fit flex-col space-y-10 px-5 sm:px-0 my-40 sm:my-0"
       id="project"
     >
       <h1

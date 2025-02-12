@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "Yusuf Akcay",
+  title: "Yusuf Akçay",
   description: "Yusuf Akcay web developer portfolio page.",
   icons: "/logo.png",
 };

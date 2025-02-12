@@ -8,8 +8,8 @@ export const ProjectsData = [
     },
     tech: "Next.js, Typescript, Tailwind CSS, NextAuth, Prisma, Zod, UploadThing, shadcn/ui, Neon Serverless Postgres, React Hook Form",
     type: "Side Project",
-    github: "https://github.com/LetoSipra/my-portfolio-v1",
-    website: "https://yusufakcay.dev",
+    github: "https://github.com/LetoSipra/instagram-clone",
+    website: "https://instagram-clone-one-beige.vercel.app/",
     devStatus: false,
   },
   {
@@ -34,8 +34,8 @@ export const ProjectsData = [
     },
     tech: "Next.js, Typescript, Tailwind CSS, React Hook Form, Clerk, Drizzle ORM, Zod, Stripe, Neon Serverless Postgres, shadcn/ui",
     type: "Side Project",
-    github: "https://github.com/LetoSipra/graphcms-blog-app",
-    website: "https://blog-app-ten-phi.vercel.app/",
+    github: "https://github.com/LetoSipra/parity-saas",
+    website: "https://parity-saas.vercel.app/",
     devStatus: false,
   },
   {
@@ -61,7 +61,7 @@ export const ProjectsData = [
     tech: "Next.js, Typescript, Firebase, Tailwind CSS, NextAuth, Recoil",
     type: "Side Project",
     github: "https://github.com/LetoSipra/realtime-chat-app",
-    website: "https://realtime-chat-app-beige.vercel.app/",
+    website: "https://realtime-chat-app-eight-phi.vercel.app/",
     devStatus: false,
   },
 ];

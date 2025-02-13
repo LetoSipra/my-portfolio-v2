@@ -1,5 +1,6 @@
 "use client";
 import { ProjectsData } from "@/data/ProjectsData";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
@@ -49,10 +50,12 @@ function Projects() {
       "
         >
           <div className="w-full">
-            <img
+            <Image
               src={project.cover.url}
               className="h-full w-full rounded-xl object-contain"
-              alt=""
+              alt={project.desc}
+              width={600}
+              height={600}
             />
           </div>
           <div className="space-y-5 px-2 lg:max-w-sm">

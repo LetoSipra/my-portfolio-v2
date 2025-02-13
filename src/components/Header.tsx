@@ -25,7 +25,7 @@ function Header() {
       />
       <header
         className={`fixed top-0 flex z-40 h-24 w-full border-b border-red-500/40 
-        bg-[#141517] opacity-0 blur-xl filter transition duration-300 translate-y-100 header`}
+        bg-[#141517] opacity-0 blur-xl filter transition duration-500 header`}
       >
         <div className="flex w-full items-center md:mx-auto md:flex-[0.8]">
           <Link href={"/"}>

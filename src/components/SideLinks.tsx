@@ -6,7 +6,7 @@ import Link from "next/link";
 function SideLinks() {
   Animate("links");
   return (
-    <div className="fixed flex flex-col items-center self-end group ml-5 opacity-0 blur-xl filter transition duration-300 translate-y-100 links">
+    <div className="fixed flex flex-col items-center self-end group ml-5 opacity-0 blur-xl filter transition duration-500 links">
       {/* icons */}
       <div className="space-y-3">
         {links.map((link) => (

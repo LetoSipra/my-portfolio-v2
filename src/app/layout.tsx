@@ -6,7 +6,8 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Yusuf Akçay",
-  description: "Yusuf Akcay web developer portfolio page.",
+  description:
+    "Yusuf Akçay – Front-end developer passionate about crafting pixel-perfect user interfaces with React, Next.js, and TypeScript. This is my portfolio showcasing high-performance, responsive web experiences.",
   icons: "/logo.png",
 };
 

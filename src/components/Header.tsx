@@ -67,7 +67,7 @@ function Header() {
                 componentDidMount && "opacity-100"
               }`}
             >
-              <HiMenu className="h-16 w-16 cursor-pointer rounded-full p-3 text-slate-400 transition duration-200 hover:bg-white/5" />
+              <HiMenu className="h-16 w-16 cursor-pointer rounded-full p-3 text-red-500 transition duration-200 hover:bg-white/5" />
             </div>
           )}
         </div>

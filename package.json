@@ -29,10 +29,5 @@
     "eslint-config-next": "15.1.7",
     "postcss": "^8.5.2",
     "typescript": "^5.7.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@vercel/speed-insights"
-    ]
   }
 }

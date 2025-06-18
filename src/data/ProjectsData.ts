@@ -1,5 +1,42 @@
 export const ProjectsData = [
   {
+    title: "E-commerce Microservices Backend",
+    slug: "ecommerce-backend-microservices",
+    desc: "A full-fledged microservices-based e-commerce backend featuring user, catalog, cart, order, notification, and payment services, orchestrated with Docker Compose and Nginx, with health checks and CI pipeline.",
+    cover: {
+      url: "https://imgur.com/4lTxgTn",
+    },
+    tech: "Node.js, Express, TypeScript, Docker Compose, Nginx, PostgreSQL, Elasticsearch, RabbitMQ, GitHub Actions, Swagger UI",
+    type: "Professional Project",
+    github: "https://github.com/LetoSipra/ecommerce-backend-microservices",
+    devStatus: false,
+  },
+  {
+    title: "Message App",
+    slug: "message-app",
+    desc: "A real‑time messaging application with a GraphQL Apollo Server backend (Node.js, TypeScript, Prisma, Redis Pub/Sub, WebSockets) and a Next.js + Tailwind CSS Server Components frontend. Supports user authentication, conversations, messaging, and live subscriptions.",
+    cover: {
+      url: "https://imgur.com/3QA6XDQ",
+    },
+    tech: "Node.js, Apollo Server, Apollo Client, Prisma, Redis, WebSockets, TypeScript, Zod, Next.js, Tailwind CSS",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/message-app",
+    website: "https://message-app-beta-cyan.vercel.app/",
+    devStatus: false,
+  },
+  {
+    title: "Pomodoro App",
+    slug: "pomodoro-app",
+    desc: "A minimalist productivity mobile app built with Expo + React Native. Features a Pomodoro timer, task lists grouped under categories, and a statistics dashboard to visualize completed sessions.",
+    cover: {
+      url: "https://imgur.com/ajb3AdO",
+    },
+    tech: "Expo, React Native, TypeScript, expo-router, Zustand, Tailwind (nativewind), Reanimated, Gesture Handler",
+    type: "Side Project",
+    github: "https://github.com/LetoSipra/pomodoro",
+    devStatus: false,
+  },
+  {
     title: "Instagram Clone",
     slug: "instagram-clone",
     desc: "Instagram clone features realtime feed, Dark/Light theme, comments, dynamic post pages, saved posts, authentication.",
@@ -25,19 +62,19 @@ export const ProjectsData = [
     website: "https://clone-1-azure.vercel.app/",
     devStatus: false,
   },
-  {
-    title: "PPP SaaS Project",
-    slug: "saas-project",
-    desc: "PPP SaaS app with Clerk authentication, permissions, analytics, Stripe subscription",
-    cover: {
-      url: "https://i.imgur.com/Uy00mXN.png",
-    },
-    tech: "Next.js, Typescript, Tailwind CSS, React Hook Form, Clerk, Drizzle ORM, Zod, Stripe, Neon Serverless Postgres, shadcn/ui",
-    type: "Side Project",
-    github: "https://github.com/LetoSipra/parity-saas",
-    website: "https://parity-saas.vercel.app/",
-    devStatus: false,
-  },
+  // {
+  //   title: "PPP SaaS Project",
+  //   slug: "saas-project",
+  //   desc: "PPP SaaS app with Clerk authentication, permissions, analytics, Stripe subscription",
+  //   cover: {
+  //     url: "https://i.imgur.com/Uy00mXN.png",
+  //   },
+  //   tech: "Next.js, Typescript, Tailwind CSS, React Hook Form, Clerk, Drizzle ORM, Zod, Stripe, Neon Serverless Postgres, shadcn/ui",
+  //   type: "Side Project",
+  //   github: "https://github.com/LetoSipra/parity-saas",
+  //   website: "https://parity-saas.vercel.app/",
+  //   devStatus: false,
+  // },
   {
     title: "Apple E-commerce",
     slug: "apple-e-commerce",
@@ -51,17 +88,17 @@ export const ProjectsData = [
     website: "https://e-commerce-five-black.vercel.app/",
     devStatus: false,
   },
-  {
-    title: "Realtime Chat App",
-    slug: "realtime-chat-app",
-    desc: "A simple realtime chat app with bad-word filtering, emoji picker and SSR authentication with Next-Auth",
-    cover: {
-      url: "https://i.imgur.com/xVg0FkI.png",
-    },
-    tech: "Next.js, Typescript, Firebase, Tailwind CSS, NextAuth, Recoil",
-    type: "Side Project",
-    github: "https://github.com/LetoSipra/realtime-chat-app",
-    website: "https://realtime-chat-app-eight-phi.vercel.app/",
-    devStatus: false,
-  },
+  // {
+  //   title: "Realtime Chat App",
+  //   slug: "realtime-chat-app",
+  //   desc: "A simple realtime chat app with bad-word filtering, emoji picker and SSR authentication with Next-Auth",
+  //   cover: {
+  //     url: "https://i.imgur.com/xVg0FkI.png",
+  //   },
+  //   tech: "Next.js, Typescript, Firebase, Tailwind CSS, NextAuth, Recoil",
+  //   type: "Side Project",
+  //   github: "https://github.com/LetoSipra/realtime-chat-app",
+  //   website: "https://realtime-chat-app-eight-phi.vercel.app/",
+  //   devStatus: false,
+  // },
 ];

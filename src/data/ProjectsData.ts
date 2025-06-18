@@ -6,7 +6,7 @@ export const ProjectsData = [
     cover: {
       url: "https://i.imgur.com/4lTxgTn.png",
     },
-    tech: "Node.js, Express, TypeScript, Docker Compose, Nginx, PostgreSQL, Elasticsearch, RabbitMQ, GitHub Actions, Swagger UI",
+    tech: "Nest.js, Node.js, Express, TypeScript, Docker Compose, Nginx, PostgreSQL, Elasticsearch, RabbitMQ, GitHub Actions, Swagger UI",
     type: "Side Project",
     github: "https://github.com/LetoSipra/ecommerce-backend-microservices",
     devStatus: false,

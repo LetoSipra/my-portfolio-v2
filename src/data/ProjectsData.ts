@@ -7,7 +7,7 @@ export const ProjectsData = [
       url: "https://i.imgur.com/4lTxgTn.png",
     },
     tech: "Node.js, Express, TypeScript, Docker Compose, Nginx, PostgreSQL, Elasticsearch, RabbitMQ, GitHub Actions, Swagger UI",
-    type: "Professional Project",
+    type: "Side Project",
     github: "https://github.com/LetoSipra/ecommerce-backend-microservices",
     devStatus: false,
   },

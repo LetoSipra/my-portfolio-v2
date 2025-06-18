@@ -4,7 +4,7 @@ export const ProjectsData = [
     slug: "ecommerce-backend-microservices",
     desc: "A full-fledged microservices-based e-commerce backend featuring user, catalog, cart, order, notification, and payment services, orchestrated with Docker Compose and Nginx, with health checks and CI pipeline.",
     cover: {
-      url: "https://imgur.com/4lTxgTn",
+      url: "https://i.imgur.com/4lTxgTn.png",
     },
     tech: "Node.js, Express, TypeScript, Docker Compose, Nginx, PostgreSQL, Elasticsearch, RabbitMQ, GitHub Actions, Swagger UI",
     type: "Professional Project",
@@ -16,7 +16,7 @@ export const ProjectsData = [
     slug: "message-app",
     desc: "A real‑time messaging application with a GraphQL Apollo Server backend (Node.js, TypeScript, Prisma, Redis Pub/Sub, WebSockets) and a Next.js + Tailwind CSS Server Components frontend. Supports user authentication, conversations, messaging, and live subscriptions.",
     cover: {
-      url: "https://imgur.com/3QA6XDQ",
+      url: "https://i.imgur.com/3QA6XDQ.png",
     },
     tech: "Node.js, Apollo Server, Apollo Client, Prisma, Redis, WebSockets, TypeScript, Zod, Next.js, Tailwind CSS",
     type: "Side Project",
@@ -29,7 +29,7 @@ export const ProjectsData = [
     slug: "pomodoro-app",
     desc: "A minimalist productivity mobile app built with Expo + React Native. Features a Pomodoro timer, task lists grouped under categories, and a statistics dashboard to visualize completed sessions.",
     cover: {
-      url: "https://imgur.com/ajb3AdO",
+      url: "https://i.imgur.com/ajb3AdO.png",
     },
     tech: "Expo, React Native, TypeScript, expo-router, Zustand, Tailwind (nativewind), Reanimated, Gesture Handler",
     type: "Side Project",
